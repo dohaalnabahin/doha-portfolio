@@ -296,40 +296,7 @@ section {
   object-position: top;
    -webkit-mask-image: linear-gradient(to bottom, black 96%, black 98%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 96%, black 98%, transparent 100%);}
-.scroll-cue {
-  position: absolute;
-  left: 50%;
-  bottom: 28px;
-  transform: translateX(-50%);
-  width: 26px;
-  height: 42px;
-  border-radius: 999px;
-  border: 2px solid var(--ink-soft);
-  display: flex;
-  justify-content: center;
-  padding-top: 8px;
-  z-index: 1;
-}
 
-.scroll-cue span {
-  width: 4px;
-  height: 8px;
-  border-radius: 4px;
-  background: var(--ink-soft);
-  animation: cue 1.6s ease infinite;
-}
-
-@keyframes cue {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  100% {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-}
 
 /* ============ About ============ */
 .about {

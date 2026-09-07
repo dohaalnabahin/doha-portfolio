@@ -5,6 +5,9 @@ const topnav = document.getElementById('topnav');
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 
+window.addEventListener('scroll', () => {
+  topnav.classList.toggle('scrolled', window.scrollY > 12);
+}, { passive: true });
 
 navToggle.addEventListener('click', () => {
   const open = navLinks.classList.toggle('open');
