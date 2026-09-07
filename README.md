@@ -1,34 +1,32 @@
-# Doha Al-Nabahin — Portfolio Site
+# Hi, I'm Doha 👋
 
-Plain HTML/CSS/JS, no build step. Files:
-- `index.html` — page content
-- `style.css` — all styling + color palette (see `:root` at the top)
-- `script.js` — 3D hero background (Three.js) + project tilt effect + nav behavior
-- `assets/` — your CV and photo
+### Junior Data Scientist | Machine Learning | Data Analysis
 
-## 1. Open it in VS Code
-1. Unzip the folder and open it in VS Code (`File > Open Folder`).
-2. Install the **Live Server** extension (by Ritwick Dey) from the Extensions tab.
-3. Right-click `index.html` → **Open with Live Server** to preview it locally in your browser.
+I'm an Information Technology graduate focused on Data Science and Machine Learning.
 
-## 2. Things you may want to edit first
-- **GitHub links**: in `index.html`, the "Malware Detection", "Customer Churn", and
-  "Chicago Crime" projects currently link to your GitHub profile (not a specific repo),
-  since I didn't have the exact repo URLs. Search for `github.com/dohaalnabahin` in
-  `index.html` and swap in the specific repo link once you confirm it.
-- **Colors**: all colors are CSS variables at the top of `style.css` (`--violet`, `--teal`,
-  `--coral`, `--gold`). Change the hex values there to try a different palette — everything
-  on the page (pills, project borders, buttons) updates automatically.
+I completed a 660-hour Data Science & Machine Learning Bootcamp and have hands-on experience in data analysis, exploratory data analysis, machine learning, and deep learning.
 
-## 3. Deploy on Render
-Render's free **Static Site** service is the right fit for this project (no server needed):
+### 🛠️ Skills
 
-1. Push this folder to a GitHub repository (create a new repo, e.g. `doha-portfolio`).
-2. Go to [render.com](https://render.com) → **New +** → **Static Site**.
-3. Connect your GitHub account and select the repository.
-4. Settings:
-   - **Build Command**: leave empty
-   - **Publish Directory**: `.` (the root folder)
-5. Click **Create Static Site**. Render will give you a live URL
-   (e.g. `doha-portfolio.onrender.com`) within a minute or two.
-6. Any time you push a change to GitHub, Render redeploys automatically.
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- TensorFlow / Keras
+- Matplotlib & Plotly
+- Machine Learning
+- Deep Learning
+- Data Analysis & Visualization
+- SQL
+- Git & GitHub
+
+### 🚀 Featured Projects
+
+**LoanSense AI**
+An end-to-end loan approval prediction system covering data preprocessing, exploratory analysis, feature engineering, machine learning, model evaluation, and deployment.
+
+**Malware Detection using CNN**
+A deep learning project that uses image representations of malware byte features to classify malware families using a Convolutional Neural Network.
+
+### 🎯 Currently
+
+Building my career in Data Science & Machine Learning and looking for opportunities as a Junior Data Scientist, Data Analyst, Data Science Intern, or Machine Learning Intern.
